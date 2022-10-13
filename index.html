@@ -1,105 +1,45 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-<h1><b>Justin Jeff</b></h1>
-<h2>Resume 2022</h2>
-<p>This is a paragraph.</p>
-  <h3>Education</h3>
-<p>Fleming College - Application Specialist - 2022-Present.</p>
- <p>Cambrian College - Mining Engineering Technology - 2018-2019.</p>
-  <p>Cambrian College - Mining Engineering Technician - 2016-2018.</p>
-  <h3>Work Experience</h3>
-<p>Newmont Exploration Surveyor - June 2022 - Present.</p>
-<p>Gyrodata Survey Specialist - June 2019 - June 2022.</p>
-<p>Detour Gold Reliability and Planning Student - May 2018 - September 2018.</p>  
- <h2>Newmont Coffee Gold Project</h2>
-<img src="https://www.miningnewsnorth.com/home/cms_data/dfault/photos/stories/id/7/3/5573/s_top" alt="Flowers in Chania" width="460" height="345"> 
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
-</body>
-</html>
-
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
 header {
   background-color: #666;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+body {
+  background-color: lightyellow;
 }
-
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
 }
-
+a {
+  color: grey;
+  float: left;
+  padding: 15px;
+  width: 30%;
+}
 article {
   float: left;
-  padding: 20px;
-  width: 70%;
+  padding: 15px;
+  width: 100%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 300px;
 }
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
 footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
+  float: left;
+  width: 38%;
+  }
+p1 {
+  color: black;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
 </style>
 </head>
 <body>
-
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-
 <header>
   <h2>Justin Jeff Resume</h2>
 </header>
@@ -116,18 +56,21 @@ footer {
   </nav>
   
   <article>
-    <h1>Newmont Mining Exploration Surveyor</h1>
+    <h1>Newmont Mining - Exploration Surveyor</h1>
     <p>Newmont is the largest gold mining company in the world. The Coffee Gold Project is an advanced exploration projection in the Yukon.</p>
-     <h1>Gyrodata Survey Specialist</h1>
-    <p>Gyrodata is an idustry leader in gyro technology and precision downhole surveys.</p>
-	  <h1>Detour Gold Reliablity and Planning Student</h1>
+     <h1>Gyrodata - Survey Specialist</h1>
+    <p>Gyrodata is an industry leader in gyro technology and precision downhole surveys.</p>
+	  <h1>Detour Gold - Reliablity and Planning Student</h1>
   <p>Detour Gold was a mid tier gold miner operating the Detour Lake Mine. Currently the Detour Lake Mine is emerging as one of the biggest gold mines in Canada.
    </article>
 
 </section>
 
 <footer>
-  <p>Footer</p>
+  <h2>Education:</h2>
+  <p1>Fleming College - GIS Application Specialist</p1>
+  <p1>Cambrian College - Mining Engineering Technologist</p1>
+  <p1>Cambrian College - Mining Engineering Technician</p1>
 </footer>
 
 </body>
