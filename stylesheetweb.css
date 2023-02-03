@@ -18,7 +18,7 @@ div {
 }
 /* Make the three links color grey,  position the links to the left, with 15 px of space around each link and a width of 30% to spread them evely across the page, remove the underline in the links,source (https://www.w3schools.com/cssref/pr_text_text-decoration.asp) and (https://www.w3schools.com/css/css_float_examples.asp) */
 a {
-  color: grey;
+  color: black;
   float: left;
   padding: 15px;
   width: 30%;
