@@ -26,6 +26,10 @@ a {
   border-style: solid;
   border-color: black;
   border-width: medium;
+  text-align: center;
+  background-color: white;
+  font-weight: bold;
+  font-size: large;
 }
 /* Display the image at 100% width, auto height, with 5 px of space, make it a a block element and centre the image, source (https://www.w3schools.com/css/css3_images.asp) */ 
 img {
