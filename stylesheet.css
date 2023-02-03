@@ -23,6 +23,9 @@ a {
   padding: 15px;
   width: 30%;
   text-decoration: none;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
 }
 /* Display the image at 100% width, auto height, with 5 px of space, make it a a block element and centre the image, source (https://www.w3schools.com/css/css3_images.asp) */ 
 img {
