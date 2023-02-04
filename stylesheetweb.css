@@ -63,6 +63,9 @@ footer {
   width: 100%;
 }
 /* Make all the headings the same size h1, h2, h3, source (https://www.w3schools.com/css/css_font_size.asp) */
+h4 {
+    font-size: 24px;
+  }
 h3 {
   font-size: 24px;
   }
@@ -70,9 +73,8 @@ h2 {
   font-size: 24px;
   }
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   }
-
 h5 {
     font-size: 18px;
 }
